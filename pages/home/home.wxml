@@ -1,0 +1,14 @@
+
+
+<!-- 轮播图 -->
+<swiper id="lunbo" indicator-dots="{{indicatorDots}}">
+	<block wx:for="{{imgUrl}}" wx:key="index">
+		<swiper-item>
+			<image src="{{item}}" alt="" />
+		</swiper-item>
+	</block>
+</swiper>
+
+
+
+
